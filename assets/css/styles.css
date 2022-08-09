@@ -97,7 +97,7 @@ header.masthead h2 {
 }
 
 .skills-row {
-    margin-top: 5px;
+    margin-top: 600px;
     background-position: center;
 }
 
@@ -116,9 +116,9 @@ header.masthead h2 {
     font-size: 1.2rem;
     /* justify-content: center; */
     padding-top: 10px;
-    padding-right: 400px;
-    padding-bottom: 100px;
-    padding-left: 100px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
     /*cursor: pointer;
     /*display: grid;
     justify-content: center;
@@ -136,12 +136,12 @@ header.masthead h2 {
     font-size: 1.2rem;*/
 }
 
-/*.wrapper {
+/* .wrapper {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-auto-rows: 100px;
     gap: 10px;
-}*/
+} */
 
 .skill-box {
     padding: 1rem;
@@ -158,9 +158,9 @@ header.masthead h2 {
     -moz-column-gap: 15px;
     column-gap: 0.1px;
     display: grid;
-    /*grid-template-columns: repeat(3, 1fr);*/
+    /*grid-template-columns: repeat(5, 1fr);*/
     justify-content: center;
-   /* align-items: left;*/
+    /*align-items: left;*/
     text-align: center;
     grid-gap: 10px;
     padding: 1rem; /*10px;*/

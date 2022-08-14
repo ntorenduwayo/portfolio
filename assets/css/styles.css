@@ -97,75 +97,20 @@ header.masthead h2 {
 }
 
 .skills-row {
-    margin-top: 600px;
-    background-position: center;
-}
-
-.container1 {
-    margin-top: 50px;
-    margin-bottom: 1px;
-    margin-left: 10px;
-    margin-right: 1px;
-    line-height: 0.5;
-    -webkit-column-count: 5;
-    -moz-column-count: 5;
-    column-count: 5;
-    -webkit-column-gap: 10px;
-    -moz-column-gap: 10px;
-    column-gap: 10px;
-    font-size: 1.2rem;
-    /* justify-content: center; */
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    /*cursor: pointer;
-    /*display: grid;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    grid-gap: 0.1rem;
-    padding: 1rem 80px;
-    font-size: 1.2rem;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    grid-gap: 1rem;
-    padding: 1rem 80px;
-    font-size: 1.2rem;*/
-}
-
-/* .wrapper {
+    margin-top: 80px;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-auto-rows: 100px;
-    gap: 10px;
-} */
-
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    grid-auto-rows: 150px;
+}
 .skill-box {
     padding: 1rem;
     color: #ddd;
-    /*margin-top: 50px;*/
-    margin-top: 50px;
-    margin-bottom: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
     margin-left: 0.5px;
     margin-right: 0.5px;
-    -webkit-column-count: 5;
-    -moz-column-count: 5;
-    column-count: 5;
-    -webkit-column-gap: 15px;
-    -moz-column-gap: 15px;
-    column-gap: 0.1px;
-    display: grid;
-    /*grid-template-columns: repeat(5, 1fr);*/
     justify-content: center;
-    /*align-items: left;*/
-    text-align: center;
-    grid-gap: 10px;
-    padding: 1rem; /*10px;*/
-    /*font-size: 1.2rem;*/
-    /*cursor: pointer;*/
 }
 
 .skill-title{
@@ -174,29 +119,7 @@ header.masthead h2 {
     align-items: center;
     padding: 0.5rem;
     margin-bottom: 0.5rem;
-    position: relative;
-}
-
-.skill-title:after{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 50%;
-    width: 35px;
-    height: 4px;
-    border-radius: 2px 0 0 2px;
-    background-color: #2ecc71;
-}
-
-.skill-title:before{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 35px;
-    height: 4px;
-    border-radius: 0 2px 2px 0;
-    background-color: #2ecc71;
+    position: sticky; 
 }
 
 .img{
